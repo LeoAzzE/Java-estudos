@@ -36,8 +36,7 @@ public class Program {
 			
 		for (String data : database.keySet()) {
 			System.out.println(data + ": " +database.get(data));
-		}
-		
+		}	
 	}
 
 	catch (IOException e){
